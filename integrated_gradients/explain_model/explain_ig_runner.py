@@ -33,7 +33,7 @@ class Net(nn.Module):
 
 
 # def sequential_forward(X_wide, X_deep, X_dense):
-#     return model.forward(X_wide, X_deep, X_dense)
+#     return integrated_gradients.forward(X_wide, X_deep, X_dense)
 #
 #
 # def sal(X_wide, X_deep, X_dense, node_index):

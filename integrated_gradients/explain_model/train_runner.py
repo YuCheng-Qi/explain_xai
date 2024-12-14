@@ -116,7 +116,7 @@ if __name__ == '__main__':
         val(model, test_dataloader)
         scheduler.step()
 
-    logging.info("save model")
+    logging.info("save integrated_gradients")
     checkpoint_path = "torchapi_ig_wnd_20221118.pt"
     torch.save(model.state_dict(), checkpoint_path)
     print("Trianing is finished!")
